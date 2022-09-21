@@ -1,4 +1,4 @@
 package com.andikscript.igate.controller;
 
-public class TransferController {
+public class MobileController {
 }
