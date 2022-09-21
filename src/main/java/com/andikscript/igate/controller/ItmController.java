@@ -1,7 +1,9 @@
 package com.andikscript.igate.controller;
 
 import com.andikscript.igate.access.PackagerAccess;
+import com.andikscript.igate.service.itm.ItmService;
 import com.andikscript.igate.util.DecodeIso;
+import com.andikscript.igate.util.PrintIso;
 import com.andikscript.igate.value.Direction;
 import com.andikscript.igate.value.Module;
 import org.springframework.http.HttpStatus;
@@ -15,17 +17,16 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/api/itm")
 public class ItmController {
 
-    private final DecodeIso decodeIso;
+    private final ItmService itmService;
 
-    public ItmController(DecodeIso decodeIso) {
-        this.decodeIso = decodeIso;
+    public ItmController(ItmService itmService) {
+        this.itmService = itmService;
     }
 
     @PostMapping(value = "/transfer/{value}")
     public ResponseEntity<?> postTransfer(@PathVariable(value = "value") String message) {
-        decodeIso.printIsoMessage(decodeIso.parseIsoMessage(message, PackagerAccess.itm), Direction.io, Module.itm);
         return ResponseEntity
                 .status(HttpStatus.OK)
-                .body("OK");
+                .body(itmService.transfer(message));
     }
 }
