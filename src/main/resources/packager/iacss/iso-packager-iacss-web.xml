@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packager>
+	<isofield 
+		bit="2"
+		headLen="2"
+		length="19"
+		type="CHARACTER" />
+	<isofield 
+		bit="3"
+		headLen="0"
+		length="6"
+		type="NUMERIC" />
+	<isofield 
+		bit="4"
+		headLen="0"
+		length="12"
+		type="NUMERIC" />
+	<isofield 
+		bit="5"
+		headLen="0"
+		length="12"
+		type="NUMERIC" />
+	<isofield 
+		bit="6"
+		headLen="0"
+		length="12"
+		type="NUMERIC" />
+	<isofield 
+		bit="7"
+		headLen="0"
+		length="10"
+		type="NUMERIC" />
+	<isofield 
+		bit="8"
+		headLen="0"
+		length="8"
+		type="NUMERIC" />
+	<isofield 
+		bit="9"
+		headLen="0"
+		length="8"
+		type="NUMERIC" />
+	<isofield 
+		bit="10"
+		headLen="0"
+		length="8"
+		type="NUMERIC" />
+	<isofield 
+		bit="11"
+		headLen="0"
+		length="6"
+		type="NUMERIC" />
+	<isofield 
+		bit="12"
+		headLen="0"
+		length="6"
+		type="NUMERIC" />
+	<isofield 
+		bit="13"
+		headLen="0"
+		length="4"
+		type="NUMERIC" />
+	<isofield 
+		bit="15"
+		headLen="0"
+		length="4"
+		type="NUMERIC" />
+	<isofield 
+		bit="16"
+		headLen="0"
+		length="4"
+		type="NUMERIC" />
+	<isofield 
+		bit="18"
+		headLen="0"
+		length="4"
+		type="NUMERIC" />
+	<isofield 
+		bit="22"
+		headLen="0"
+		length="3"
+		type="CHARACTER" />
+	<isofield 
+		bit="28"
+		headLen="0"
+		length="9"
+		type="NUMERIC" />
+	<isofield 
+		bit="29"
+		headLen="0"
+		length="9"
+		type="NUMERIC" />
+	<isofield 
+		bit="32"
+		headLen="2"
+		length="11"
+		type="CHARACTER" />
+	<isofield 
+		bit="33"
+		headLen="2"
+		length="11"
+		type="CHARACTER" />
+	<isofield 
+		bit="35"
+		headLen="2"
+		length="37"
+		type="CHARACTER" />
+	<isofield 
+		bit="37"
+		headLen="0"
+		length="12"
+		type="CHARACTER" />
+	<isofield 
+		bit="38"
+		headLen="0"
+		length="6"
+		type="CHARACTER" />
+	<isofield 
+		bit="39"
+		headLen="0"
+		length="2"
+		type="CHARACTER" />
+	<isofield 
+		bit="41"
+		headLen="0"
+		length="8"
+		type="CHARACTER" />
+	<isofield 
+		bit="42"
+		headLen="0"
+		length="15"
+		type="CHARACTER" />
+	<isofield 
+		bit="43"
+		headLen="0"
+		length="40"
+		type="CHARACTER" />
+	<isofield 
+		bit="48"
+		headLen="4"
+		length="9999"
+		type="CHARACTER" />
+	<isofield 
+		bit="49"
+		headLen="0"
+		length="3"
+		type="CHARACTER" />
+	<isofield 
+		bit="52"
+		headLen="0"
+		length="16"
+		type="CHARACTER" />
+	<isofield 
+		bit="55"
+		headLen="3"
+		length="999"
+		type="BINARY" />
+	<isofield 
+		bit="56"
+		headLen="3"
+		length="999"
+		type="CHARACTER" />
+	<isofield 
+		bit="60"
+		headLen="2"
+		length="99"
+		type="CHARACTER" />
+	<isofield 
+		bit="61"
+		headLen="3"
+		length="999"
+		type="CHARACTER" />
+	<isofield 
+		bit="70"
+		headLen="0"
+		length="3"
+		type="NUMERIC" />
+	<isofield 
+		bit="102"
+		headLen="2"
+		length="28"
+		type="CHARACTER" />
+	<isofield 
+		bit="103"
+		headLen="2"
+		length="28"
+		type="CHARACTER" />
+	<isofield 
+		bit="104"
+		headLen="3"
+		length="100"
+		type="CHARACTER" />
+	<isofield 
+		bit="120"
+		headLen="5"
+		length="999"
+		type="CHARACTER" />
+	<isofield 
+		bit="121"
+		headLen="3"
+		length="999"
+		type="CHARACTER" />
+</packager>
